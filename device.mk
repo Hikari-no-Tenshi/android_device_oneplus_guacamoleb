@@ -3,6 +3,8 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+$(call inherit-product-if-exists, vendor/oneplus/guacamoleb/guacamoleb-vendor.mk)
+
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Vendor properties
