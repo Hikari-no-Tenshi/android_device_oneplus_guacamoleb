@@ -13,7 +13,7 @@
         android:targetSdkVersion="21"/>
 
     <application
-        android:label="OnePlusCameraHelper"
+        android:label="OnePlus Camera Helper"
         android:persistent="true">
 
         <receiver android:name="org.lineageos.camerahelper.BootCompletedReceiver">
