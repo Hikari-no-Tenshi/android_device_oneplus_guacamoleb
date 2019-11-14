@@ -17,3 +17,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
+
+# tri-state key
+PRODUCT_PACKAGES += \
+    tri-state-key-calibrate_daemon
