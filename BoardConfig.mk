@@ -37,6 +37,7 @@ TARGET_CAMERA_NEEDS_CLIENT_INFO := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
 
 # Fingerprint
 SOONG_CONFIG_ONEPLUS_MSMNILE_FOD_DIM = true
